@@ -24,15 +24,15 @@ dist_clean: ### dist clean
 
 clean: dist_clean rm_pyc  ### rm_pyc and dict clean
 
-test:  ### tests
-	pytest -vvv
+test: dist ### tests
+	python setup.py test
 
 dist: clean  ### build dist package (after clean)
-	python3 setup.py sdist
-	python3 setup.py bdist_wheel
+	python setup.py sdist
+	python setup.py bdist_wheel
 
 version: dist  ### version
-	python3 setup.py --version
+	python setup.py --version
 
 license: dist  ### some license stufff
-	python3 setup.py --license
+	python setup.py --license

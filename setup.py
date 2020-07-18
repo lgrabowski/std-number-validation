@@ -6,7 +6,7 @@ install_requires = [
 
 tests_require = [
     'mock',
-    'nose',
+    'pytest',
     ]
 
 setup_requires=[
