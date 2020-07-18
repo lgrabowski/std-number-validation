@@ -20,7 +20,7 @@ setup(
     author='Luigi',
     author_email='luigi@lgrabowski.pl',
     url='http://lgrabowski.pl',
-    description='standard numbers and codes validation',
+    description='standard numbers and codes validators',
     long_description=open('README.md').read().strip(),
     packages=find_packages(),
     install_requires=install_requires,
