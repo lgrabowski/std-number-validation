@@ -1,0 +1,6 @@
+ # requirements.txt
+
+ # ha! I do not like duplication between setup.py and req files.
+ # this is a good trick I just realised about that :D
+ -e .
+
