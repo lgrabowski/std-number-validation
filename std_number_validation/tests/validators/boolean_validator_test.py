@@ -4,12 +4,12 @@ from std_number_validation import validators
 from std_number_validation import algorithms
 from std_number_validation import exceptions
 
-class LuhnAlgorithmTestCase(unittest.TestCase):
 
+class LuhnAlgorithmTestCase(unittest.TestCase):
     BOOLEAN_VALIDATOR_CLASS = validators.BooleanValidator
     LUHN_ALGORITHM = algorithms.LuhnAlgorithm
-    CORRECT_NUMBER = 4532015112830366
-    INCORRECT_NUMBER = 4532015112830311
+    CORRECT_NUMBER = 79927398713
+    INCORRECT_NUMBER = 79927398711
 
     def setUp(self) -> None:
         pass

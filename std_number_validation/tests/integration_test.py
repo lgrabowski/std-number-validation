@@ -1,12 +1,12 @@
 import unittest
-from std_number_validation import algorithms
+
 from std_number_validation import validate
 from std_number_validation import exceptions
 
-class IntegrationTestCase(unittest.TestCase):
 
-    CORRECT_NUMBER = 4532015112830366
-    INCORRECT_NUMBER = 4532015112830311
+class IntegrationTestCase(unittest.TestCase):
+    CORRECT_NUMBER = 79927398713
+    INCORRECT_NUMBER = 79927398711
 
     def test_integration_should_accept_valid_number(self):
         # given
@@ -31,18 +31,8 @@ class IntegrationTestCase(unittest.TestCase):
 
     def test_integration_should_reject_invalid_number_via_contextual_validation(self):
         # given
-        with validate.contextual_validation(self.INCORRECT_NUMBER, exc_to_raise=exceptions.ValidationError) as validator:
+        with validate.contextual_validation(self.INCORRECT_NUMBER,
+                                            exc_to_raise=exceptions.ValidationError) as validator:
             # when
             # then
             self.assertRaises(exceptions.ValidationError, validator.is_valid)
-
-
-
-
-
-
-
-
-# validate.validate()
-
-#with validate.context_validation() as:

@@ -2,12 +2,12 @@ import unittest
 
 from std_number_validation import algorithms
 
-class LuhnAlgorithmTestCase(unittest.TestCase):
 
+class LuhnAlgorithmTestCase(unittest.TestCase):
     LUHN = algorithms.LuhnAlgorithm()
-    CORRECT_NUMBER = 4532015112830366
-    INCORRECT_NUMBER = 4532015112830311
-    INCORRECT_NUMBER_SWAPPED_DIGITS = 4532015112830636
+    CORRECT_NUMBER = 79927398713
+    INCORRECT_NUMBER = 79927398711
+    INCORRECT_NUMBER_SWAPPED_DIGITS = 79927398731
 
     def setUp(self) -> None:
         pass

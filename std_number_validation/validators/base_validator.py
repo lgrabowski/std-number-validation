@@ -6,7 +6,7 @@ class BaseValidator:
 
     def __init__(self, number: int,
                  algorithm: typing.Type[typings.BaseAlgorithmType],
-                 exc_to_raise: typing.Type[typings.BaseExceptionType]=None):
+                 exc_to_raise: typing.Type[typings.BaseExceptionType] = None):
         self.param = number
         self.algorithm = algorithm()
         self.exception = exc_to_raise

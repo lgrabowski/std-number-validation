@@ -7,6 +7,7 @@ class ContextValidator(BaseValidator):
     to have control over exception which may come around param processing from integration
     point of view
     """
+
     def __enter__(self):
         return self
 
