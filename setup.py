@@ -14,7 +14,7 @@ setup_requires=[
 ]
 
 setup(
-    name='std-number-validation',
+    name='std_number_validation',
     version=open('Changelog').readline().strip().split()[-1],
     license=open('LICENSE').read().strip(),
     author='Luigi',

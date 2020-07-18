@@ -1,5 +1,8 @@
 # Standard number validation
 
+
+[![CircleCI](https://circleci.com/gh/lgrabowski/std-number-validation.svg?style=shield)](https://circleci.com/gh/lgrabowski/std-number-validation)
+
 Among different day to day life activities we approach all kind of number
 from social security number to credit card number. 
 Following simple library helps in validation numbers against different algorithms and startegirs.
