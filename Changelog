@@ -1,3 +1,8 @@
+July 18 2020 Luigi <luigi@lgrabowski.pl> 0.1.0
+* add validators
+* add algorithms
+* test and integration tests
+
 July 18 2020 Luigi <luigi@lgrabowski.pl> 0.0.1
 * add setup.py integration
 * basic testing integration
