@@ -31,12 +31,15 @@ with validate.contextual_validation(79927398713) as validator:
 
 # Requirements:
 python 3.8+ 
+editor which respects editor config (vim powaaa!)
 
 
 
 # Classic TODO list:
-tox ? - version up from 3.7 (maybe)
-Damn algorithm - fun to implement
+- tox ? - version up from 3.7 (maybe)
+- Damn algorithm - fun to implement
+
+
 
 
         
